@@ -1,0 +1,26 @@
+{
+	"name": "jsonbackend",
+	"version": "1.0.26",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"esm": "^3.2.25",
+		"express": "^4.17.1",
+		"load-json-file": "^6.2.0",
+		"write-json-file": "^4.3.0"
+	},
+	"scripts": {
+		"start": "nodemon -q  index.js --config nodemon.json",
+		"start1": "yarn version --patch && yarn publish",
+		"test": "jest",
+		"testwatch": "jest --watchAll",
+		"prepub": "c Pre version commit.",
+		"pub": "yarn version --patch && yarn publish",
+		"postpub": "p"
+	},
+	"devDependencies": {
+		"axios": "^0.21.0"
+	}
+}

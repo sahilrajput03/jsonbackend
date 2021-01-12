@@ -1,0 +1,6 @@
+{
+  "events": {
+    "start": "cls || clear"
+  },
+  "ignore": ["mydb.json", "tests/*", "lib/*.js", "README", "mydbs"]
+}
