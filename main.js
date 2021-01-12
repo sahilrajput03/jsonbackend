@@ -6,7 +6,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 let log = console.log;
-
 export * from "./express-app.js";
 
 let initialEmptyData = {
